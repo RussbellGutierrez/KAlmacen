@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="500dp"
+              android:layout_height="wrap_content">
+    <TextView
+            android:text="FILTRO INVENTARIO"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <RadioGroup
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/rg_filtro">
+        <RadioButton
+                android:text="VISTA GENERAL DE PRODUCTOS"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rb_general"/>
+        <RadioButton
+                android:text="PRODUCTOS PENDIENTES DE CONTEO"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rb_pendiente"/>
+        <RadioButton
+                android:text="PRODUCTOS CON FALTANTES"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rb_faltante"/>
+        <RadioButton
+                android:text="PRODUCTOS CON SOBRANTES"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rb_sobrante"/>
+    </RadioGroup>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+        <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Cancelar"
+                android:textColor="#970e3a" android:id="@+id/btn_cancelar"/>
+
+        <Button
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Aceptar"
+                android:textColor="#027547" android:id="@+id/btn_aceptar"/>
+
+    </LinearLayout>
+
+</LinearLayout>

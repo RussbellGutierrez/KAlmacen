@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="540dp"
+              android:layout_height="wrap_content"
+              app:cardBackgroundColor="#4891C2"
+              android:layout_margin="5dp" android:id="@+id/card_carga">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:text="999999 - GLORIA EVAPORADA NIÑOS DE 1 A 5 AÑOS 48UNI X 170GR"
+                android:background="@color/White"
+                android:textColor="@color/DarkGray"
+                android:layout_margin="8dp"
+                android:padding="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:background="@color/White"
+                    app:srcCompat="@drawable/v_pallet"/>
+
+            <TextView
+                    android:text="3"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:background="@color/White"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"/>
+
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:background="@color/White"
+                    app:srcCompat="@drawable/v_caja"/>
+
+            <TextView
+                    android:text="50"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:background="@color/White"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"/>
+
+            <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"
+                    android:padding="5dp"
+                    android:background="@color/White"
+                    app:srcCompat="@drawable/v_papas"/>
+
+            <TextView
+                    android:text="70"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:background="@color/White"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="vertical" android:id="@+id/linear_transportista">
+
+            <TextView
+                    android:text="TRANSPORTISTA"
+                    android:textColor="@color/White"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <com.google.android.flexbox.FlexboxLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:flexWrap="wrap"
+                    android:background="@color/White"
+                    app:justifyContent="center" android:id="@+id/flex_camiones">
+
+            </com.google.android.flexbox.FlexboxLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:text="99999 - GLORIA EVAPORADA NIÑOS DE 1 A 5 AÑOS 48UNI X 170GR"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:background="#683a74"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/txt_producto"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/recycler_detalle"/>
+
+</LinearLayout>

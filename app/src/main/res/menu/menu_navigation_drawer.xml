@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+    <group
+        android:id="@+id/group_top"
+        android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_inventario"
+                android:icon="@drawable/v_inventario"
+                android:title="INVENTARIO" />
+        <item
+                android:id="@+id/nav_carga_general"
+                android:icon="@drawable/v_carga"
+                android:title="CARGA GENERAL"/>
+        <item
+                android:id="@+id/nav_carga_transporte"
+                android:icon="@drawable/v_camion"
+                android:title="CARGA TRANSPORTE"/>
+    </group>
+    <group
+            android:id="@+id/group_center"
+            android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_sincronizar"
+                android:icon="@drawable/v_sincronizar"
+                android:title="SINCRONIZAR"/>
+        <item
+                android:id="@+id/nav_subir"
+                android:icon="@drawable/v_subir"
+                android:title="SUBIR INFORMACIÓN" />
+    </group>
+    <group
+            android:id="@+id/group_bottom"
+            android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_ajustes"
+                android:icon="@drawable/v_configuracion"
+                android:title="CONFIGURACIÓN" />
+        <item
+                android:id="@+id/nav_desconectar"
+                android:icon="@drawable/v_desconectar"
+                android:title="CERRAR SESIÓN" />
+    </group>
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+            android:text="588 - YONY MALVACEDA QUINONES"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:background="@color/DodgerBlue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/txt_dato"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/recycler_detalle"/>
+
+</LinearLayout>
